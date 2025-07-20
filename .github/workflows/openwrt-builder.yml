@@ -22,7 +22,7 @@ jobs:
             
       - name: Clone ImmortalWrt source (release branch)
         run: |
-          git clone -b 23.05 https://github.com/immortalwrt/immortalwrt.git
+          git clone -b openwrt-23.05 https://github.com/immortalwrt/immortalwrt.git
           cd immortalwrt
 
       - name: Copy custom config and diy script
