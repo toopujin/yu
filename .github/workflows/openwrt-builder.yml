@@ -39,8 +39,9 @@ jobs:
       - name: Update & install feeds
         run: |
           cd immortalwrt
-          ./scripts/feeds update -a
-          ./scripts/feeds install -a
+          ./scripts/feeds update passwall_packages passwall_luci
+./scripts/feeds install -a -f -p passwall_packages
+./scripts/feeds install -a -f -p passwall_luci
 
       - name: Start compiling
         run: |
