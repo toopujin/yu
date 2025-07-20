@@ -1,5 +1,5 @@
 # luci 界面（正确是 passwall2 仓库）
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall2.git package/passwall_luci
+git clone -b luci https://github.com/xiaorouji/openwrt-passwall2/tree/main/luci-app-passwall2
 
 # backend packages
-git clone -b packages https://github.com/xiaorouji/openwrt-passwall.git package/passwall_packages
+git clone -b packages https://github.com/xiaorouji/openwrt-passwall-packages
