@@ -1,3 +1,2 @@
-./scripts/feeds update passwall_packages passwall_luci
-./scripts/feeds install -a -f -p passwall_packages
-./scripts/feeds install -a -f -p passwall_luci
+src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall;packages
+src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall2;luci
